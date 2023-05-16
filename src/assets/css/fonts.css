@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  src: url("../fonts/Raleway.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  src: url("../fonts/OpenSans.ttf") format("truetype");
+}

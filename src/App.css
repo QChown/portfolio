@@ -1,0 +1,43 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: White;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+
+main {
+  position: relative;
+}
+.fg {
+  position: relative;
+  z-index: 2;
+  mix-blend-mode: difference;
+}
+section {
+}
+
+.deco {
+  position: absolute;
+  width: 500px;
+  height: 550px;
+  transform: rotate(7deg);
+  background-color: rgb(255, 255, 255);
+  left: 50%;
+  z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.colossus {
+  font-size: 122px;
+}
