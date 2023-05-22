@@ -19,15 +19,13 @@ const Home = () => {
   }, []);
 
   return (
-    <section ref={section} id='splash'>
-      <div className='deco'></div>
-      <div className='fg'>
-        <h1 ref={header} className='colossus'>
-          Discover the power of <br /> front-end development.
+    <section ref={section} id="splash">
+      <div className="fg">
+        <h1 ref={header} className="hero">
+          Web Developer, <br />
+          Transforming Designs into Immersive Web Experiences
         </h1>
-        <p>
-          Quentin Chown: Transforming Designs into Immersive Web Experiences
-        </p>
+        {/* <p className="sub-heading">Transforming Designs into Immersive Web Experiences</p> */}
       </div>
     </section>
   );
