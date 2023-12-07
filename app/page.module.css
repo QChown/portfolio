@@ -13,14 +13,12 @@
 
 .largeText div {
   display: flex;
-  border: 1px solid hotpink;
   align-items: center;
   justify-content: center;
   width: 100%;
   gap: 20px;
 }
 .largeText div:last-child {
-  border: 1px solid palegreen;
   justify-content: center;
 }
 .largeText div h1,
